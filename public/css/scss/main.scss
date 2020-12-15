@@ -1,0 +1,65 @@
+//STRUCTURE:
+//  scss/
+//  |
+//  |– 1-base/
+//  |   |– _reset.scss        # Reset/normalize
+//  |   |– _typography.scss   # Typography rules
+//  |   ...                   # Etc…
+//  |
+//  |– 2-helpers/
+//  |   |– _variables.scss    # Sass Variables
+//  |   |– _functions.scss    # Sass Functions
+//  |   |– _mixins.scss       # Sass Mixins
+//  |   |– _placeholders.scss # Class & placeholders helpers
+//  |   ...                   # Etc…
+//  |
+//  |– 2-helpers/
+//  |   |– _buttons.scss      # Buttons
+//  |   |– _carousel.scss     # Carousel
+//  |   |– _cover.scss        # Cover
+//  |   |– _dropdown.scss     # Dropdown
+//  |   |– _navigation.scss   # Navigation
+//  |   ...                   # Etc…
+//  |
+//  |– 4-layout/
+//  |   |– _grid.scss         # Grid system
+//  |   |– _header.scss       # Header
+//  |   |– _footer.scss       # Footer
+//  |   |– _sidebar.scss      # Sidebar
+//  |   |– _forms.scss        # Forms
+//  |   ...                   # Etc…
+//  |
+//  |– pages/
+//  |   |– _home.scss         # Home specific styles
+//  |   |– _contact.scss      # Contact specific styles
+//  |   ...                   # Etc…
+//  |
+//  |– themes/
+//  |   |– _theme.scss        # Default theme
+//  |   |– _admin.scss        # Admin theme
+//  |   ...                   # Etc…
+//  |
+//  |– vendors/
+//  |   |– _bootstrap.scss    # Bootstrap
+//  |   |– _jquery-ui.scss    # jQuery UI
+//  |   ...                   # Etc…
+//  |
+//  |
+//  `- _media.scss            # all media queries mixins
+//  `– main.scss              # primary Sass file
+
+// 1 - BASE
+@import "1-base/variables";
+
+// 3 - COMPONENTS
+@import "3-components/sliderHome";
+@import "3-components/sale";
+@import "3-components/content";
+@import "3-components/offer";
+@import "3-components/footer";
+@import "3-components/navbar";
+
+
+
+// MEDIA
+@import "media";

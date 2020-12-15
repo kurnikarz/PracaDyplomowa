@@ -1,0 +1,54 @@
+// VARIABLES AND SEMANTIC VARIABLES
+//
+//
+// example:
+//
+// // breakpoints
+// $breakpoint-desktop: 1200px; // extra large
+// $breakpoint-laptop: 992px; // large
+// $breakpoint-tablet: 768px; // medium
+// $breakpoint-mobile: 576px; // small
+//
+// // colors - use this only in semantic names variables
+// $black: #353535;
+// $gray: #4f4f4f;
+// $gray--medium: #737373;
+// $gray--light: #c4c4c4;
+// $orange: #f96855;
+//
+// // fonts
+// $font-normal: 400;
+// $font-bold: 700;
+//
+// // semantic names variables
+// $font-1: 'myfont_1', sans-serif;
+// $font-secondary: 'myfont_2', sans-serif;
+// $color-1: $gray--light;
+// $primary--background: $gray;
+// $primary--background-hover: $gray--medium;
+// $accent-primary--color: $black;
+// $accent-primary--background: $orange;
+//
+// $secondary--background: $gray--light;
+// $accent-secondary--color: $black;
+// $accent-secondary--background: $black;
+//
+// $body-primary__background: $black;
+// $menu-primary__background: $gray;
+// $main-font-primary__color: $gray--light;
+// $menu-active-primary__color: $gray--light;
+// $menu-font-primary__color: $gray--medium;
+//
+//
+
+// breakpoints
+$breakpoint-mobile--custom: 414px;
+$breakpoint-mobile: 576px;
+$breakpoint-tablet: 720px;
+$breakpoint-laptop: 992px;
+$breakpoint-desktop: 1200px;
+$breakpoint-desktop--custom: 1367px;
+
+// colors
+$base: #1e1e1e;
+$base-color: #e2494b;

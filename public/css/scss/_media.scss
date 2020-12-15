@@ -1,0 +1,95 @@
+// CREATE MOBILE MIXINS IN SCSS AND INCLUDE HERE
+// THIS FEATURE CREATE ONE CONTAINER PER MEDIA IN COMPILED CSS
+//
+//
+// example:
+//
+// @media screen and(min-width: $breakpoint-mobile) {
+//   @include header--mobile();
+//   @include footer--mobile();
+// }
+// @media screen and(min-width: $breakpoint-tablet) {
+//   @include header--tablet();
+//   @include footer--tablet();
+// }
+// @media screen and(min-width: $breakpoint-laptop) {
+//   @include header--laptop();
+//   @include footer--laptop();
+// }
+// @media screen and(min-width: $breakpoint-desktop) {
+//   @include header--desktop();
+//   @include footer--desktop();
+// }
+//
+// header {
+//   width: 100%;
+//   height: 50vh;
+//   background-color: red;
+// }
+// @mixin header--mobile() {
+//   header {
+//     background-color: green;
+//   }
+// }
+// @mixin header--tablet() {
+//   header {
+//     background-color: blue;
+//   }
+// }
+// @mixin header--laptop() {
+//   header {
+//     background-color: black;
+//   }
+// }
+// @mixin header--desktop() {
+//   header {
+//     background-color: orange;
+//   }
+// }
+// footer {
+//   width: 100%;
+//   height: 20vh;
+//   background-color: red;
+//   border: 10px solid white;
+// }
+// @mixin footer--mobile() {
+//   footer {
+//     background-color: green;
+//   }
+// }
+// @mixin footer--tablet() {
+//   footer {
+//     background-color: blue;
+//   }
+// }
+// @mixin footer--laptop() {
+//   footer {
+//     background-color: black;
+//   }
+// }
+// @mixin footer--desktop() {
+//   footer {
+//     background-color: orange;
+//   }
+// }
+//
+//
+
+@media screen and (min-width: $breakpoint-mobile--custom) {
+  @include sale--mobile-custom();
+}
+
+@media screen and (min-width: $breakpoint-tablet) {
+  @include sale--tablet();
+}
+
+@media screen and (min-width: $breakpoint-laptop) {
+  @include sale--laptop();
+}
+
+@media screen and (min-width: $breakpoint-desktop) {
+  @include sale--desktop();
+  @include content--desktop();
+  @include offer--desktop();
+  @include sliderHome--desktop();
+}

@@ -1,0 +1,23 @@
+.navbar {
+  background-color: $base !important;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  //height: 56px;
+
+  &-brand {
+    color: #fff !important;
+  }
+
+  &-collapse {
+    justify-content: flex-end;
+
+    .nav-item:hover {
+      background-color: $base-color;
+    }
+
+    .nav-link {
+      color: #fff !important;
+    }
+
+  }
+}

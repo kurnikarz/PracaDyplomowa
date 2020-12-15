@@ -1,0 +1,13 @@
+.slider-home {
+  margin-top: 50px;
+
+  &__img {
+    max-height: 740px;
+  }
+}
+
+@mixin sliderHome--desktop(){
+  .slider-home {
+    margin-top: unset;
+  }
+}

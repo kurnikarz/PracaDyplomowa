@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACE,iBAAO,CACL,UAAU,CAAE,KAAK,CCDnB,cAAW,CACT,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,MAAM,CACvB,cAAc,CAAE,MAAM,CAEtB,qBAAS,CACP,aAAa,CAAE,IAAI,CAIvB,YAAS,CACP,cAAc,CAAE,SAAS",
+"sources": ["3-components/_sliderHome.scss","3-components/_sale.scss"],
+"names": [],
+"file": "main.css"
+}

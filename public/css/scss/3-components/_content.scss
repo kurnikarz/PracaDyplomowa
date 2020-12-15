@@ -1,0 +1,12 @@
+.content {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+@mixin content--desktop(){
+  .content {
+    margin-left: unset;
+    margin-right: unset;
+  }
+
+}
