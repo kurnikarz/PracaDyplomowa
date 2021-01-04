@@ -1,0 +1,2 @@
+vendor/symfony/http-foundation/RequestMatcher.php:
+    - zakomentowanie 172-174 linii
